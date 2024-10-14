@@ -1,77 +1,82 @@
 /* Estilos básicos para la barra de navegación */
-nav {
-    
-    background-color: #acacac;
-    height: 7rem;
-    width: auto;
-  }
-.menu img{
-    height: 8rem;
-    width: auto;
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-  
-  .menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    font-size: 20px;
-  }
-  
-  .menu li {
-    float: left;
-  }
+nav {
+  background-color: #acacac;
+  height: 7rem;
+  width: auto;
+}
 
-  .navbar-content{
-    padding: 10px;
-    font-size: 25px;
-  }
-  
-  .menu li a, .dropbtn {
-    display: inline-block;
-    color: rgb(28, 88, 20);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .menu li a:hover, .dropdown:hover .dropbtn {
-    color:rgb(4, 156, 4)
-  }
-  
-  /* Estilos para el dropdown */
-  .dropdown {
-    display: inline-block;
-    
-  }
-  
-  .contenido-barra {
-    text-align: right;
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    max-width: 180px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    
-  }
-  
-  .contenido-barra a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+.menu img {
+  height: 8rem;
+  width: auto;
+}
 
-  }
-  
-  .contenido-barra a:hover {
-    background-color: #f1f1f1;
-    color:rgb(4, 156, 4)
-  }
-  
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.menu li {
+  float: left;
+}
+
+.navbar-content {
+  padding: 30px;
+  font-size: 25px;
+}
+
+.menu li a,
+.dropbtn {
+  display: inline-block;
+  color: rgb(28, 88, 20);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover,
+.dropdown:hover .dropbtn {
+  color: rgb(4, 156, 4)
+}
+
+/* Estilos para el dropdown */
+.dropdown {
+  display: inline-block;
+}
+
+.contenido-barra {
+  text-align: right;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  max-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.contenido-barra a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.contenido-barra a:hover {
+  background-color: #f1f1f1;
+  color: rgb(4, 156, 4)
+}
+
 .dropdown:hover .contenido-barra {
-    display: flex;
-    flex-direction: column;
-    
-  }
-  
+  display: flex;
+  flex-direction: column;
+}
+.buscador img{
+  height: 30px;
+  width: auto;
+}
