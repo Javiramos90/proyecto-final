@@ -1,82 +1,114 @@
-/* Estilos básicos para la barra de navegación */
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-nav {
-  background-color: #acacac;
-  height: 7rem;
-  width: auto;
-}
-
-.menu img {
-  height: 8rem;
-  width: auto;
-}
-
-.menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  font-size: 20px;
-}
-
-.menu li {
-  float: left;
+/* Estilos generales para la barra de navegación */
+.navbar {
+  background-color: #F5F5DC; /* Beige para el fondo */
+  padding: 15px;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 .navbar-content {
-  padding: 30px;
-  font-size: 25px;
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.dropdown img{
+  height: 120px;
+  width: auto;
 }
 
-.menu li a,
-.dropbtn {
-  display: inline-block;
-  color: rgb(28, 88, 20);
-  text-align: center;
-  padding: 14px 16px;
+.navbar-content li {
+  position: relative;
+  padding: 0 4rem;
+  
+}
+.navbar-content li .login {
+  position: relative;
+  padding: 0 0 0 5rem;
+  
+}
+
+.navbar-content a {
   text-decoration: none;
+  color: #2E8B57; /* Verde oliva para los textos */
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  transition: color 0.3s ease-in-out;
 }
 
-.menu li a:hover,
-.dropdown:hover .dropbtn {
-  color: rgb(4, 156, 4)
+.navbar-content a:hover {
+  color: #CD5C5C; /* Terracota al pasar el cursor */
 }
 
-/* Estilos para el dropdown */
-.dropdown {
-  display: inline-block;
-}
-
-.contenido-barra {
-  text-align: right;
+/* Dropdown - submenús */
+.dropdown .contenido-barra {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
-  max-width: 180px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: #FFF;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
-}
-
-.contenido-barra a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-}
-
-.contenido-barra a:hover {
-  background-color: #f1f1f1;
-  color: rgb(4, 156, 4)
+  min-width: 160px;
+  padding: 12px 12px;
 }
 
 .dropdown:hover .contenido-barra {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
-.buscador img{
+
+.contenido-barra a {
+  display: block;
+  color: #4682B4; /* Azul cielo para los enlaces de dropdown */
+  padding: 10px 0;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.contenido-barra a:hover {
+  background-color: #F0E68C; /* Color beige oscuro en hover */
+  color: #2E8B57; /* Verde oliva en hover */
+}
+
+/* Buscador */
+.buscador{
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  position: relative;
+}
+
+.buscador img , .login img {
+  width: 30px;
   height: 30px;
-  width: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.buscador img:hover {
+  transform: scale(1.1); /* Pequeño aumento al pasar el cursor */
+}
+
+.input-buscar{
+  display: block;
+  position: absolute;
+  text-align: center;
+  left: 30px; /* Ajusta según el tamaño del ícono */
+  /* padding: 5px; */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  height: auto;
+  transition: all 1.3 ease;
+}
+.mostrar{
+  display: none;
+}
+
+.input-login{
+  height: auto;
+  border: 5px solid yellowgreen;
+
 }

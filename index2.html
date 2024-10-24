@@ -9,71 +9,93 @@
 
 </head>
 
-<body>
+<body> 
+    <header>
     <nav class="navbar">
-        <ul class="menu">
-            <li><img src="Imagenes/logo_SRF_sinFondo.png" alt="Sin Rumbo Fijo">
+        <ul class="navbar-content">
+            <li class="dropdown">
+                <a href="#"><img src="Imagenes/logo_SRF_sinFondo.png" alt=""></a>
+            <li class="dropdown">
+                <a href="#">Lugares</a>
+                <div class="contenido-barra">
+                    <a href="#">Andalucia</a>
+                    <a href="#">Aragon</a>
+                    <a href="#">Prin. Asturias</a>
+                    <a href="#">Islas Baleares</a>
+                    <a href="#">Canarias</a>
+                    <a href="#">Cantabria</a>
+                    <a href="#">Castilla y Leon</a>
+                    <a href="#">Castilla-La Mancha</a>
+                    <a href="#">Cataluña</a>
+                    <a href="#">Comu. Valenciana</a>
+                    <a href="#">Extremadura</a>
+                    <a href="#">Galicia</a>
+                    <a href="#">Comu. Madrid</a>
+                    <a href="#">Reg. Murcia</a>
+                    <a href="#">Com. Navarra</a>
+                    <a href="#">Pais Vasco</a>
+                    <a href="#">La Rioja</a>
+                    <a href="#">Ceuta</a>
+                    <a href="#">Melilla</a>
+                </div>
             </li>
-            <div class="navbar-content">
-                <li class="dropdown">
-                    <a href="#">Lugares</a>
-                    <div class="contenido-barra">
-                        <a href="#">Andalucia</a>
-                        <a href="#">Aragon</a>
-                        <a href="#">Prin. Asturias</a>
-                        <a href="#">Islas Baleares</a>
-                        <a href="#">Canarias</a>
-                        <a href="#">Cantabria</a>
-                        <a href="#">Castilla y Leon</a>
-                        <a href="#">Castilla-La Mancha</a>
-                        <a href="#">Cataluña</a>
-                        <a href="#">Comu. Valenciana</a>
-                        <a href="#">Extremadura</a>
-                        <a href="#">Galicia</a>
-                        <a href="#">Comu. Madrid</a>
-                        <a href="#">Reg. Murcia</a>
-                        <a href="#">Com. Navarra</a>
-                        <a href="#">Pais Vasco</a>
-                        <a href="#">La Rioja</a>
-                        <a href="#">Ceuta</a>
-                        <a href="#">Melilla</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="#">Proxima Parada</a>
-                    <div class="contenido-barra">
-                        <a href="#">Viaje paso a paso</a>
-                        <a href="#">Consultas</a>
-                        <a href="#">Pases para Eventos</a>
-                        <a href="#">Tarjetas de viaje</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropbtn">Gastronomia</a>
-                    <div class="contenido-barra">
-                        <a href="#">Donde comer</a>
-                        <a href="#">Que comer</a>
-                        <a href="#">Recetas popularees</a>
-                    </div>
-                </li>
-                <li class="dropdwn">
-                    <a href="#">Como sere tu viaje</a>
-                    <div class="contenido-barra">
-                        <a href="#">Escapadas</a>
-                        <a href="#">Viaje Corto</a>
-                        <a href="#">Viaje Largo</a>
-                    </div>
-                </li>
-                <li>
-                    <a href="#">Contacto</a>
-                </li>
-                <li class="buscador">
-                    <a href="#" class="buscador"><img src="Imagenes/buscador.png" alt=""></a>
-                </li>
-                
-            </div>
+            <li class="dropdown">
+                <a href="#">Proxima Parada</a>
+                <div class="contenido-barra">
+                    <a href="#">Viaje paso a paso</a>
+                    <a href="#">Consultas</a>
+                    <a href="#">Pases para Eventos</a>
+                    <a href="#">Tarjetas de viaje</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">Gastronomia</a>
+                <div class="contenido-barra">
+                    <a href="#">Donde comer</a>
+                    <a href="#">Que comer</a>
+                    <a href="#">Recetas populares</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">Como será tu viaje</a>
+                <div class="contenido-barra">
+                    <a href="#">Escapadas</a>
+                    <a href="#">Viaje Corto</a>
+                    <a href="#">Viaje Largo</a>
+                </div>
+            </li>
+            <!-- <li>
+                <a href="#">Contacto</a>
+            </li> -->
+            <li class="buscador">
+                <a href="#" id ="img-buscar"><img src="Imagenes/buscador.png" alt="Buscar"></a>
+                <input type="text" class="input-buscar mostrar"  id ="input-buscar" placeholder="¿En que puedo ayudarte?">
+            </li>
+            <li class="login">
+                <a href="#" id ="img-login"><img src="Imagenes/logo-login.png" alt="login"></a>
+                <form class = "input-login  mostrar" id="input-login">
+                        <div class = "sesion">    
+                            <input type="email" name="email" required placeholder="Correo electronico">
+                            <input type="password" name="password" required placeholder="Contraseña">
+                        </div>
+                        <div class = "boton">
+                            <input type="submit" name="login" value="Iniciar Sesion">
+                            <input type="submit" name="login" value="Registrarse">
+                        </div>
+                </form>
+            
+            </li> 
+
         </ul>
     </nav>
+</header>
+<main>
+
+</main>
+<footer>
+    
+</footer>
+    <script src="js/principal.js"></script>
 </body>
 
 </html>
