@@ -1,7 +1,14 @@
 /* Estilos generales para la barra de navegación */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .navbar {
   background-color: #F5F5DC; /* Beige para el fondo */
-  padding: 15px;
+  max-width: 1800px;
+  /* padding: 15px; */
   font-family: 'Arial', sans-serif;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
@@ -13,15 +20,16 @@
   align-items: center;
   margin: 0;
   padding: 0;
+  gap: 20px;
 }
 .dropdown img{
-  height: 120px;
+  height: 80px;
   width: auto;
 }
 
 .navbar-content li {
   position: relative;
-  padding: 0 4rem;
+  /* padding: 0 4rem; */
   
 }
 .navbar-content li .login {
@@ -35,7 +43,7 @@
   color: #2E8B57; /* Verde oliva para los textos */
   font-size: 18px;
   font-weight: bold;
-  padding: 10px;
+  /* padding: 10px; */
   transition: color 0.3s ease-in-out;
 }
 
@@ -43,6 +51,9 @@
   color: #CD5C5C; /* Terracota al pasar el cursor */
 }
 
+.dropdown{
+  position: relative;
+}
 /* Dropdown - submenús */
 .dropdown .contenido-barra {
   display: none;
@@ -93,7 +104,7 @@
 .input-buscar{
   display: block;
   position: absolute;
-  text-align: center;
+  text-align: start;
   left: 30px; /* Ajusta según el tamaño del ícono */
   /* padding: 5px; */
   font-size: 16px;
@@ -105,10 +116,25 @@
 }
 .mostrar{
   display: none;
+  align-items: start;
 }
 
 .input-login{
   height: auto;
   border: 5px solid yellowgreen;
 
+}
+.portada{
+  background-size: cover;       /* Ajusta la imagen sin distorsión */
+  background-position: center;   /* Centra la imagen */
+  width: 100vw;
+  height: 100vh;
+
+  /* width: 1400px;
+  height: 400px; */
+}
+
+.img-portada{
+  width: 100%;
+  height: auto;
 }
