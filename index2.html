@@ -97,13 +97,17 @@
             <!-- <li>
                 <a href="#">Contacto</a>
             </li> -->
-            <li class="buscador">
-                <a href="#" id ="img-buscar"><img src="Imagenes/buscador.png" alt="Buscar"></a>
-                <input type="text" class="input-buscar"  id ="input-buscar" placeholder="¿En que puedo ayudarte?">
-            </li>
-            <li class="login">
-                <a href="#" id ="img-login"><img src="Imagenes/logo-login.png" alt="login"></a>
-                <form class = "input-login  mostrar" id="input-login">
+            <div class = "navbar-buscador-login">
+                <li class="buscador">
+                    <a href="#" id ="img-buscar"><img src="Imagenes/buscador.png" alt="Buscar"></a>
+                    <div class="buscar">
+                        <input type="text" class="input-buscar mostrar"  id="input-buscar" placeholder="¿En que puedo ayudarte?">
+                        <button  class="input-buscar mostrar" id="btn-buscar"><b>Buscar</b></button>
+                    </div>
+                </li>
+                <li class="login">
+                    <a href="#" id ="img-login"><img src="Imagenes/logo-login.png" alt="login"></a>
+                    <form class = "input-login  mostrar" id="input-login">
                         <div class = "sesion">    
                             <input type="email" name="email" required placeholder="Correo electronico">
                             <input type="password" name="password" required placeholder="Contraseña">
@@ -112,14 +116,12 @@
                             <input type="submit" name="login" value="Iniciar Sesion">
                             <input type="submit" name="login" value="Registrarse">
                         </div>
-                </form>
-            </li> 
+                    </form>
+                </li> 
+            </div>
         </ul>
     </nav>
-    <div class="portada">
-        <div class =" mostrar"><input type="text"></div>
         <img class="img-portada" src="Imagenes/portada-mochilas.jpg" alt="">
-    </div>
 </header>
 <main>
 
