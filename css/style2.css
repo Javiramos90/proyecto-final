@@ -1,15 +1,16 @@
 /* Estilos generales para la barra de navegación */
 *{
+  font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
 .navbar {
+  position: fixed;
   background-color: #f3f3ef; /* Beige para el fondo */
-  max-width: 1800px;
-  /* padding: 15px; */
-  font-family: 'Arial', sans-serif;
+  width: auto;
+  margin-bottom:-10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
@@ -34,7 +35,7 @@
 }
 .navbar-content li .login {
   position: relative;
-  padding: 0 0 0 5rem;
+  /* padding: 0 0 0 5rem; */
   
 }
 
@@ -53,6 +54,7 @@
 
 .dropdown{
   position: relative;
+  width: 300px;
 }
 /* Dropdown - submenús */
 .dropdown .contenido-barra {
@@ -71,22 +73,29 @@
 
 .contenido-barra a {
   display: block;
+  font-size: 15px;
+  width: 10px;
   color: #4682B4; /* Azul cielo para los enlaces de dropdown */
   padding: 10px 0;
   text-align: left;
-  transition: background-color 0.3s ease;
+  transition: all 0.5s;
 }
 
+
 .contenido-barra a:hover {
-  background-color: #F0E68C; /* Color beige oscuro en hover */
+  background-color: #f3ecaa; /* Color beige oscuro en hover */
   color: #2E8B57; /* Verde oliva en hover */
-}
+  width: 130px;
+  font-size: 17px;
+} 
 
 
 .navbar-buscador-login {
 width: 100%;
 display: flex;
 flex-direction: row;
+
+
 }
 
 .navbar-buscador-login .buscador{
@@ -107,12 +116,14 @@ flex-direction: row;
 .buscador img , .login img {
   width: 30px;
   height: 30px;
+  margin: 0 100px;
   cursor: pointer;
-  transition: all 10s ease;
+  transition: all 0.5s ease;
+
 }
 
-.buscador img:hover {
-  transform: scale(1.1); /* Pequeño aumento al pasar el cursor */
+.buscador img:hover , .login img:hover {
+  transform: scale(1.2); /* Pequeño aumento al pasar el cursor */
 }
 
 .buscar{
@@ -120,19 +131,6 @@ flex-direction: row;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
-  
-}
-
-@keyframes movimiento{
-  0%{
-    margin: 0 0 0 0;
-  }
-
-  100%{
-    margin: 10% 0 0 0;
-  }
-
 }
 
 #btn-buscar{
@@ -150,41 +148,114 @@ flex-direction: row;
 .input-buscar{
   display: block;
   /* position: absolute; */
-  text-align: start;
+  text-align: center;
   padding: 5px;
   font-size: 16px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  /* top: 20px; */
   /* width: 300px; */
-  height: 25px;
-  animation: movimiento 2s ease-in-out;
+  height: 30px;
+  animation: movimiento-buscar 2s both;
+}
+@keyframes movimiento-buscar{
+  0%{
+    margin-top: 0;
+  }
+
+  100%{
+    margin-top: 5% ;
+  }
 
 }
-
-
+input.input-buscar{
+  border-radius: 5px 0 0 5px;
+}
+button.input-buscar{
+  border-radius: 0 5px 5px 0;
+}
 .mostrar{
-
   height: 20px;
   display: none;
   overflow: hidden;
 }
 
-.input-login{
-  height: auto;
-  border: 5px solid yellowgreen;
 
+.input-login {
+  display: block;
+  flex-direction: column;
+  margin-left: 500px;
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  position: absolute;
+  right: 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  animation: movimiento-login 1s both; /* Animación de despliegue */
+  /* overflow: hidden; */
+  height: 190px;
 }
-.portada{
+
+@keyframes movimiento-login{
+  0%{
+    margin-top: 0;
+    top: 30px;
+  }
+  100%{
+    margin-top: 5%;
+    top:37px;
+  }
+}
+
+.visible{
+  display:none
+}
+.login .input-login .mostrar {
+  display: flex; /* Muestra el formulario */
+  max-height: 400px; /* Altura máxima durante el despliegue */
+}
+
+.sesion input,
+.boton input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/*.portada{
   background-size: cover;       /* Ajusta la imagen sin distorsión */
-  background-position: center;   /* Centra la imagen */
-  width: 100vw;
-  height: 100vh;
+  /*background-position: center;   /* Centra la imagen */
+ /* width: 100vw;
+  height: 100vh;*/
 
   /* width: 1400px;
-  height: 400px; */
-}
+  height: 400px; 
+}*/
 
-.img-portada{
+.img-portada {
+  /* position: relative;
   width: 100%;
-  height: auto;
+  max-width: 800px; /* Ajusta el tamaño de la portada */
+  /*height: 400px;
+  margin: auto;
+  overflow: hidden; */
+}
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.slide.activo {
+  margin-top:100px;
+  opacity: 1;
+
+}
+.slider{
+  width: 1900px;
+  height: 1000px;
 }

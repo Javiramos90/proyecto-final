@@ -12,8 +12,8 @@ $(document).ready(function(){
 		var provincia;		
 		provincia = $(this).attr('class');		
 		/***resaltamos la provincia****/
-		 $('.spain').attr('src', './img/'+provincia+'.png')	
-		 $('#listadoProvincias li a.'+provincia).addClass('light')	
+		$('.spain').attr('src', './img/'+provincia+'.png')	
+		$('#listadoProvincias li a.'+provincia).addClass('light')	
 		
 		/****Aquí gestionaremos cualquier funcionalidad adicional relacionada con el hover del elemento****/				
 	

@@ -3,13 +3,5 @@ body { font-family:Arial, Helvetica, sans-serif}
 #mapa {  width:781px; height:713px; background: url(../img/spain.png) 0 0 no-repeat;
 		 /**** Con el zoom y scale podemos adaptar el mapa al tamaño que necesitemos***/
 		 /*zoom:.5;-o-transform: scale(.5);-moz-transform: scale(.5)*/
-}
-@media(true){
-	#mapa {zoom:1;}
 }	
 #listadoProvincias a.light { color:#6cd500}
-
-.coruna:hover{
-	filter: grayscale(50%);
-	background-color: red; 
-}
