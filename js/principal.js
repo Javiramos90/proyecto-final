@@ -34,4 +34,4 @@ function cambiarSlide() {
 }
 
 // Cambia la imagen cada 5 segundos (5000 ms)
-setInterval(cambiarSlide, 5000);
+ setInterval(cambiarSlide, 1000);

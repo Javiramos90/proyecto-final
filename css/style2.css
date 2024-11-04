@@ -7,10 +7,11 @@
 }
 
 .navbar {
+  z-index: 1;
   position: fixed;
   background-color: #f3f3ef; /* Beige para el fondo */
-  width: auto;
-  margin-bottom:-10px;
+  width: 100%;
+  /* margin-bottom:-10px; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
@@ -235,27 +236,41 @@ button.input-buscar{
   height: 400px; 
 }*/
 
-.img-portada {
-  /* position: relative;
+.img-container{
+  position: relative;
+  height: 100vh;
   width: 100%;
-  max-width: 800px; /* Ajusta el tamaño de la portada */
-  /*height: 400px;
-  margin: auto;
-  overflow: hidden; */
-}
-.slide {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-.slide.activo {
-  margin-top:100px;
-  opacity: 1;
 
 }
-.slider{
-  width: 1900px;
-  height: 1000px;
+
+.img-portada {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  /* max-width: 800px; /* Ajusta el tamaño de la portada */
+  /*height: 400px;
+  margin: auto;
+  overflow: hidden;*/
 }
+.slide {
+  object-fit: cover;
+  position: absolute;
+  min-width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1s ease;
+}
+.slide.activo {
+  opacity: 1;
+}
+
+.titulo h2{
+  text-align: center;
+
+
+}
+
