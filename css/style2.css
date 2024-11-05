@@ -11,7 +11,6 @@
   position: fixed;
   background-color: #f3f3ef; /* Beige para el fondo */
   width: 100%;
-  /* margin-bottom:-10px; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
@@ -31,12 +30,10 @@
 
 .navbar-content li {
   position: relative;
-  /* padding: 0 4rem; */
   
 }
 .navbar-content li .login {
   position: relative;
-  /* padding: 0 0 0 5rem; */
   
 }
 
@@ -45,7 +42,6 @@
   color: #2E8B57; /* Verde oliva para los textos */
   font-size: 18px;
   font-weight: bold;
-  /* padding: 10px; */
   transition: color 0.3s ease-in-out;
 }
 
@@ -95,8 +91,6 @@
 width: 100%;
 display: flex;
 flex-direction: row;
-
-
 }
 
 .navbar-buscador-login .buscador{
@@ -104,12 +98,8 @@ flex-direction: row;
     height: 10px;
     text-align: center;
 }
-
-
 /* Buscador */
 .buscador{
-  /* display: flex;
-  flex-direction: column; */
   align-items: center;
   position: relative;
 }
@@ -148,13 +138,10 @@ flex-direction: row;
 }
 .input-buscar{
   display: block;
-  /* position: absolute; */
   text-align: center;
   padding: 5px;
   font-size: 16px;
   border: 1px solid #ccc;
-  /* top: 20px; */
-  /* width: 300px; */
   height: 30px;
   animation: movimiento-buscar 2s both;
 }
@@ -164,7 +151,7 @@ flex-direction: row;
   }
 
   100%{
-    margin-top: 5% ;
+    margin-top: 7% ;
   }
 
 }
@@ -194,7 +181,6 @@ button.input-buscar{
   right: 0;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   animation: movimiento-login 1s both; /* Animación de despliegue */
-  /* overflow: hidden; */
   height: 190px;
 }
 
@@ -204,7 +190,7 @@ button.input-buscar{
     top: 30px;
   }
   100%{
-    margin-top: 5%;
+    margin-top: 7%;
     top:37px;
   }
 }
@@ -226,15 +212,6 @@ button.input-buscar{
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-/*.portada{
-  background-size: cover;       /* Ajusta la imagen sin distorsión */
-  /*background-position: center;   /* Centra la imagen */
- /* width: 100vw;
-  height: 100vh;*/
-
-  /* width: 1400px;
-  height: 400px; 
-}*/
 
 .img-container{
   position: relative;
@@ -249,10 +226,6 @@ button.input-buscar{
   height: 100%;
   display: flex;
   overflow: hidden;
-  /* max-width: 800px; /* Ajusta el tamaño de la portada */
-  /*height: 400px;
-  margin: auto;
-  overflow: hidden;*/
 }
 .slide {
   object-fit: cover;
@@ -262,15 +235,24 @@ button.input-buscar{
   opacity: 0;
   background-size: cover;
   background-position: center;
-  transition: opacity 1s ease;
+  transition: opacity 3s ease;
 }
 .slide.activo {
   opacity: 1;
 }
 
-.titulo h2{
+.titulo{
+  position:absolute;
   text-align: center;
+  z-index: 1;
+  margin-left: 70vh;
+  margin-top: 50vh;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
 
-
+h2{
+  padding: 30px;
+  text-align: center;
 }
 
