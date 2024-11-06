@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 .navbar {
@@ -245,14 +246,30 @@ button.input-buscar{
   position:absolute;
   text-align: center;
   z-index: 1;
-  margin-left: 70vh;
+  margin-left: 80vh;
   margin-top: 50vh;
   color: rgb(255, 255, 255);
   font-size: 40px;
 }
 
 h2{
-  padding: 30px;
+  margin: 100px 300px;
   text-align: center;
+}
+
+.mapa{
+  margin-left: 30%;
+}
+
+
+
+
+
+
+
+footer{
+  background-color: #f3ecaa;
+  border: 5px solid #6dda9c;
+  border-radius: 3px 0px 0px 3px; 
 }
 
