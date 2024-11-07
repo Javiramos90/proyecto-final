@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,7 @@
     <title>SRF</title>
 
 </head>
+
 <body>
     <header>
         <nav class="navbar">
@@ -38,96 +40,42 @@
                 <li class="dropdown">
                     <a href="#">Lugares</a>
                     <div class="contenido-barra">
-                        <a href="LinkProvincias/andalucia.php">
-                            <pre>Andalucia</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Aragon</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Asturias</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Islas Baleares</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Canarias</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Cantabria</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Castilla y Leon</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Castilla-La<br>Mancha</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Cataluña</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Valencia</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Extremadura</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Galicia</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Madrid</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Murcia</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Navarra</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Pais Vasco</pre>
-                        </a>
-                        <a href="#">
-                            <pre>La Rioja</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Ceuta</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Melilla</pre>
-                        </a>
+                        <a href="andalucia.php"><pre>Andalucia</pre></a>
+                        <a href="#"><pre>Aragon</pre></a>
+                        <a href="#"><pre>Asturias</pre></a>
+                        <a href="#"><pre>Islas Baleares</pre></a>
+                        <a href="#"><pre>Canarias</pre></a>
+                        <a href="#"><pre>Cantabria</pre></a>
+                        <a href="#"><pre>Castilla y Leon</pre></a>
+                        <a href="#"><pre>Castilla-La<br>Mancha</pre></a>
+                        <a href="#"><pre>Cataluña</pre></a>
+                        <a href="#"><pre>Valencia</pre></a>
+                        <a href="#"><pre>Extremadura</pre></a>
+                        <a href="#"><pre>Galicia</pre></a>
+                        <a href="#"><pre>Madrid</pre></a>
+                        <a href="#"><pre>Murcia</pre></a>
+                        <a href="#"><pre>Navarra</pre></a>
+                        <a href="#"><pre>Pais Vasco</pre></a>
+                        <a href="#"><pre>La Rioja</pre></a>
+                        <a href="#"><pre>Ceuta</pre></a>
+                        <a href="#"><pre>Melilla</pre></a>
                     </div>
                 </li>
                 <li class="dropdown">
-                    <a href="#">
-                        <pre>Proxima Parada</pre>
-                    </a>
+                    <a href="#"><pre>Proxima Parada</pre></a>
                     <div class="contenido-barra">
-                        <a href="#">
-                            <pre>Viaje paso<br>a paso</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Consultas</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Pases para<br>Eventos</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Tarjetas de<br>viaje</pre>
-                        </a>
+                        <a href="#"><pre>Viaje paso<br>a paso</pre></a>
+                        <a href="#"><pre>Consultas</pre></a>
+                        <a href="#"><pre>Pases para<br>Eventos</pre></a>
+                        <a href="#"><pre>Tarjetas de<br>viaje</pre></a>
                     </div>
                 </li>
                 <li class="dropdown">
                     <a href="#">Gastronomia</a>
                     <div class="contenido-barra">
-                        <a href="#">
-                            <pre>Donde comer</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Que comer</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Recetas<br>populares</pre>
-                        </a>
+                        <a href="#"><pre>Donde comer</pre></a>
+                        <a href="#"><pre>Que comer</pre></a>
+                        <a href="#"><pre>Recetas<br>populares</pre></a>
                     </div>
                 </li>
                 <li class="dropdown">
@@ -135,15 +83,9 @@
                         <pre>Como será tu viaje</pre>
                     </a>
                     <div class="contenido-barra">
-                        <a href="#">
-                            <pre>Escapadas</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Viaje Corto</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Viaje Largo</pre>
-                        </a>
+                        <a href="#"><pre>Escapadas</pre></a>
+                        <a href="#"><pre>Viaje Corto</pre></a>
+                        <a href="#"><pre>Viaje Largo</pre></a>
                     </div>
                 </li>
                 <li>
@@ -205,12 +147,13 @@
         </div>
     </header>
     <main>
-        <h2>Te invitamos a explorar España como nunca antes. Descubre pueblos encantadores, playas
+        <h2>
+            Te invitamos a explorar España como nunca antes. Descubre pueblos encantadores, playas
             escondidas, rutas de montaña y la vibrante cultura española. Te llevamos a través de cada rincón de este
             país diverso, con consejos, historias y recomendaciones para que tu aventura en España sea inolvidable
         </h2>
 
-        <h3>¡BIENVENID@!</h3>
+        <h3>¡BIENVENID@ A PROXIMO DESTINO!</h3>
 
         <div class="mapa">
             <?php
@@ -219,18 +162,23 @@
         </div>
     </main>
     <footer>
-        <div class="">
-            <div>
+        <div class="endPage">
+            <div class="formNombre">
                 <p>Nombre</p>
                 <input type="text" placeholder="Nombre/Name">
             </div>
-            <div>
+            <div class="formEmail">
                 <p>Correo</p>
                 <input type="email" placeholder="Correo Electronico/Email">
             </div>
-            <p><input type="checkbox"> He leido y acepto la Politica de Privacidad</p>
         </div>
-
+        <div class="boton">
+            <button class="btn-form">¡Suscribirme!</button>
+            <div class="check">
+                <input type="checkbox">
+                <p>He leido y acepto la Politica de Privacidad</p> 
+            </div>    
+        </div>
     </footer>
     <script src="js/principal.js"></script>
 </body>
