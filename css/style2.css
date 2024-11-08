@@ -277,7 +277,8 @@ footer{
   height: auto;
   background-color: #f3ecaa;
   border: 3px solid #6dda9c;
-  border-radius: 2px 0px 0px 2px; 
+  border-radius: 2px 0px 0px 2px;
+  width: 100%;
 }
 
 .endPage{
@@ -295,13 +296,23 @@ footer{
   padding: 0px 10px;
 }
 
-.boton{
-  padding: 20px ;
+.botonFormulario{
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: stretch;
 }
-
+.botonFormulario input{
+  width: 20px;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 .btn-form{
   margin: 0rem 50rem;
 }
@@ -309,6 +320,30 @@ footer{
 .check{
   display: flex;
   flex-direction: row;
+  gap: 10px;
   margin: 0px 700px;
-  padding: 1% 10%;
+  padding: 1% 0%;
+}
+
+.check p{
+  width: 40vh;
+}
+.formNombre input{
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+}
+.formEmail input{
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.endPage p{
+  text-align: center;
+  margin: 2px;
+}
+
+.politica{
+  margin: 0 auto;
 }

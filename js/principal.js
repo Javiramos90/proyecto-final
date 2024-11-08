@@ -35,3 +35,5 @@ function cambiarSlide() {
 
 // Cambia la imagen cada 5 segundos (5000 ms)
 setInterval(cambiarSlide, 3000);
+
+

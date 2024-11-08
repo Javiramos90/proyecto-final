@@ -40,42 +40,93 @@
                 <li class="dropdown">
                     <a href="#">Lugares</a>
                     <div class="contenido-barra">
-                        <a href="andalucia.php"><pre>Andalucia</pre></a>
-                        <a href="#"><pre>Aragon</pre></a>
-                        <a href="#"><pre>Asturias</pre></a>
-                        <a href="#"><pre>Islas Baleares</pre></a>
-                        <a href="#"><pre>Canarias</pre></a>
-                        <a href="#"><pre>Cantabria</pre></a>
-                        <a href="#"><pre>Castilla y Leon</pre></a>
-                        <a href="#"><pre>Castilla-La<br>Mancha</pre></a>
-                        <a href="#"><pre>Cataluña</pre></a>
-                        <a href="#"><pre>Valencia</pre></a>
-                        <a href="#"><pre>Extremadura</pre></a>
-                        <a href="#"><pre>Galicia</pre></a>
-                        <a href="#"><pre>Madrid</pre></a>
-                        <a href="#"><pre>Murcia</pre></a>
-                        <a href="#"><pre>Navarra</pre></a>
-                        <a href="#"><pre>Pais Vasco</pre></a>
-                        <a href="#"><pre>La Rioja</pre></a>
-                        <a href="#"><pre>Ceuta</pre></a>
-                        <a href="#"><pre>Melilla</pre></a>
+                        <a href="andalucia.php">
+                            <pre>Andalucia</pre>
+                        </a>
+                        <a href="aragon.php">
+                            <pre>Aragon</pre>
+                        </a>
+                        <a href="asturias.php">
+                            <pre>Asturias</pre>
+                        </a>
+                        <a href="baleares.php">
+                            <pre>Islas Baleares</pre>
+                        </a>
+                        <a href="canarias.php">
+                            <pre>Canarias</pre>
+                        </a>
+                        <a href="cantabria.php">
+                            <pre>Cantabria</pre>
+                        </a>
+                        <a href="castilla-y-leon.php">
+                            <pre>Castilla y Leon</pre>
+                        </a>
+                        <a href="castlla-la-mancha.php">
+                            <pre>Castilla-La<br>Mancha</pre>
+                        </a>
+                        <a href="cataluña.php">
+                            <pre>Cataluña</pre>
+                        </a>
+                        <a href="valencia.php">
+                            <pre>Valencia</pre>
+                        </a>
+                        <a href="extremadura.php">
+                            <pre>Extremadura</pre>
+                        </a>
+                        <a href="galicia.php">
+                            <pre>Galicia</pre>
+                        </a>
+                        <a href="madrid.php">
+                            <pre>Madrid</pre>
+                        </a>
+                        <a href="murcia.php">
+                            <pre>Murcia</pre>
+                        </a>
+                        <a href="navarra.php">
+                            <pre>Navarra</pre>
+                        </a>
+                        <a href="pais-vasco.php">
+                            <pre>Pais Vasco</pre>
+                        </a>
+                        <a href="la-rioja.php">
+                            <pre>La Rioja</pre>
+                        </a>
+                        <a href="ceuta-y-melilla.php">
+                            <pre>Ceuta y Melilla</pre>
+                        </a>
                     </div>
                 </li>
                 <li class="dropdown">
-                    <a href="#"><pre>Proxima Parada</pre></a>
+                    <a href="#">
+                        <pre>Proxima Parada</pre>
+                    </a>
                     <div class="contenido-barra">
-                        <a href="#"><pre>Viaje paso<br>a paso</pre></a>
-                        <a href="#"><pre>Consultas</pre></a>
-                        <a href="#"><pre>Pases para<br>Eventos</pre></a>
-                        <a href="#"><pre>Tarjetas de<br>viaje</pre></a>
+                        <a href="#">
+                            <pre>Viaje paso<br>a paso</pre>
+                        </a>
+                        <a href="#">
+                            <pre>Consultas</pre>
+                        </a>
+                        <a href="#">
+                            <pre>Pases para<br>Eventos</pre>
+                        </a>
+                        <a href="#">
+                            <pre>Tarjetas de<br>viaje</pre>
+                        </a>
                     </div>
                 </li>
                 <li class="dropdown">
                     <a href="#">Gastronomia</a>
                     <div class="contenido-barra">
-                        <a href="#"><pre>Donde comer</pre></a>
-                        <a href="#"><pre>Que comer</pre></a>
-                        <a href="#"><pre>Recetas<br>populares</pre></a>
+                        <a href="#">
+                            <pre>Donde comer</pre>
+                        </a>
+                        <a href="#">
+                            <pre>Que comer</pre>
+                        </a>
+                        <a href="#">
+                            <pre>Recetas<br>populares</pre>
+                        </a>
                     </div>
                 </li>
                 <li class="dropdown">
@@ -83,9 +134,15 @@
                         <pre>Como será tu viaje</pre>
                     </a>
                     <div class="contenido-barra">
-                        <a href="#"><pre>Escapadas</pre></a>
-                        <a href="#"><pre>Viaje Corto</pre></a>
-                        <a href="#"><pre>Viaje Largo</pre></a>
+                        <a href="#">
+                            <pre>Escapadas</pre>
+                        </a>
+                        <a href="#">
+                            <pre>Viaje Corto</pre>
+                        </a>
+                        <a href="#">
+                            <pre>Viaje Largo</pre>
+                        </a>
                     </div>
                 </li>
                 <li>
@@ -172,12 +229,19 @@
                 <input type="email" placeholder="Correo Electronico/Email">
             </div>
         </div>
-        <div class="boton">
+        <div class="botonFormulario">
             <button class="btn-form">¡Suscribirme!</button>
             <div class="check">
                 <input type="checkbox">
-                <p>He leido y acepto la Politica de Privacidad</p> 
-            </div>    
+                <p>&nbsp;He leido y acepto la Politica de Privacidad</p>
+            </div>
+            <div class="politica">
+                <!--Enlace para ventana modal de politica de privacidad  -->
+                <p>Los datos de carácter personal serán tratados de forma segura, cumpliendo con el RGPD (Reglamento
+                    General de Protección de Datos). Podrás ejercer tus derechos de acceso, rectificación, limitación y
+                    eliminación definitiva de los datos. Más información en nuestra &nbsp;<button class="open-modal-btn"
+                        onclick="openModal()">política de privacidad.</button></p>
+            </div>
         </div>
     </footer>
     <script src="js/principal.js"></script>
