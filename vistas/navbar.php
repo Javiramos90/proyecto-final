@@ -1,5 +1,5 @@
 
-        <nav class="navbar">
+<nav class="navbar">
             <ul class="navbar-content">
                 <li class="dropdown">
                     <a href="index.php"><img src="Imagenes/logo_SRF_sinFondo.png" alt=""></a>
@@ -21,62 +21,59 @@
                 <li class="dropdown">
                     <a href="#">Lugares</a>
                     <div class="contenido-barra">
-                        <a href="LinkProvincias/andalucia.php">
+                        <a href="andalucia.php">
                             <pre>Andalucia</pre>
                         </a>
-                        <a href="#">
+                        <a href="aragon.php">
                             <pre>Aragon</pre>
                         </a>
-                        <a href="#">
+                        <a href="asturias.php">
                             <pre>Asturias</pre>
                         </a>
-                        <a href="#">
+                        <a href="baleares.php">
                             <pre>Islas Baleares</pre>
                         </a>
-                        <a href="#">
+                        <a href="canarias.php">
                             <pre>Canarias</pre>
                         </a>
-                        <a href="#">
+                        <a href="cantabria.php">
                             <pre>Cantabria</pre>
                         </a>
-                        <a href="#">
+                        <a href="castilla-y-leon.php">
                             <pre>Castilla y Leon</pre>
                         </a>
-                        <a href="#">
+                        <a href="castlla-la-mancha.php">
                             <pre>Castilla-La<br>Mancha</pre>
                         </a>
-                        <a href="#">
+                        <a href="cataluña.php">
                             <pre>Cataluña</pre>
                         </a>
-                        <a href="#">
+                        <a href="valencia.php">
                             <pre>Valencia</pre>
                         </a>
-                        <a href="#">
+                        <a href="extremadura.php">
                             <pre>Extremadura</pre>
                         </a>
-                        <a href="#">
+                        <a href="galicia.php">
                             <pre>Galicia</pre>
                         </a>
-                        <a href="#">
+                        <a href="madrid.php">
                             <pre>Madrid</pre>
                         </a>
-                        <a href="#">
+                        <a href="murcia.php">
                             <pre>Murcia</pre>
                         </a>
-                        <a href="#">
+                        <a href="navarra.php">
                             <pre>Navarra</pre>
                         </a>
-                        <a href="#">
+                        <a href="pais-vasco.php">
                             <pre>Pais Vasco</pre>
                         </a>
-                        <a href="#">
+                        <a href="la-rioja.php">
                             <pre>La Rioja</pre>
                         </a>
-                        <a href="#">
-                            <pre>Ceuta</pre>
-                        </a>
-                        <a href="#">
-                            <pre>Melilla</pre>
+                        <a href="ceuta-y-melilla.php">
+                            <pre>Ceuta y Melilla</pre>
                         </a>
                     </div>
                 </li>

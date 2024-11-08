@@ -32,8 +32,8 @@ function cambiarSlide() {
   // Muestra la nueva imagen
   slides[currentSlide].classList.add('activo');
 }
-
+cambiarSlide()
 // Cambia la imagen cada 5 segundos (5000 ms)
-setInterval(cambiarSlide, 3000);
+setInterval(cambiarSlide, 2500);
 
 
